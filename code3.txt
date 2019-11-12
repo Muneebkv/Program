@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+void main()
+
+{
+    
+int n,a=0;
+    
+printf("Enter the a vlue of n ");
+    
+scanf("%d",&n);
+
+printf("\n");    
+for(int i=1;i<=n;i++)
+    
+{
+a=a+i*i;
+
+}
+    
+printf("sum of squares of natural numbers is ");
+    
+printf("%d",a);
+
+printf("\n);
+}
